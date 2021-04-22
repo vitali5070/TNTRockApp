@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>118553136295-7p4vd8f9t0js237qqq49edgkh2e7ipk7.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.118553136295-7p4vd8f9t0js237qqq49edgkh2e7ipk7</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA-DTCqD_ZbwC58_BujjxBW9STqoB0m0YE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>118553136295</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>NabarouskiVitali.TNT-Rock-Club</string>
+	<key>PROJECT_ID</key>
+	<string>tnt-rock-club-app</string>
+	<key>STORAGE_BUCKET</key>
+	<string>tnt-rock-club-app.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:118553136295:ios:98c8122ad6e277f93b5f82</string>
+	<key>DATABASE_URL</key>
+	<string>https://tnt-rock-club-app.firebaseio.com</string>
+</dict>
+</plist>

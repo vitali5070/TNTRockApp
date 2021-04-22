@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		213FAFAB6F25B8725A746E12 /* Pods_TNT_Rock_Club.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19D0B929FE3BC28A6578A013 /* Pods_TNT_Rock_Club.framework */; };
+		7E1412CC24AB276D002DAFDA /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1412CB24AB276D002DAFDA /* MenuTableViewCell.swift */; };
+		7E1A5E6024A9DC2300F641A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1A5E5F24A9DC2300F641A8 /* AppDelegate.swift */; };
+		7E1A5E6224A9DC2300F641A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1A5E6124A9DC2300F641A8 /* SceneDelegate.swift */; };
+		7E1A5E6724A9DC2300F641A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E1A5E6524A9DC2300F641A8 /* Main.storyboard */; };
+		7E1A5E6924A9DC2700F641A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E1A5E6824A9DC2700F641A8 /* Assets.xcassets */; };
+		7E1A5E6C24A9DC2700F641A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E1A5E6A24A9DC2700F641A8 /* LaunchScreen.storyboard */; };
+		7E1A5E7624A9E5D700F641A8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1A5E7524A9E5D700F641A8 /* MainViewController.swift */; };
+		7E55296624BE1B9F00F07258 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E55296524BE1B9F00F07258 /* MenuVC.swift */; };
+		7E55296824BE1EB300F07258 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E55296724BE1EB300F07258 /* MenuTableViewController.swift */; };
+		7E64D7F424C6FBC100A5AD68 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E64D7F324C6FBC100A5AD68 /* UserModel.swift */; };
+		7E69120824D1843D00F55BA0 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E69120724D1843D00F55BA0 /* SignInViewController.swift */; };
+		7E6DAEF424B722AC00B74CC9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E6DAEF324B722AC00B74CC9 /* GoogleService-Info.plist */; };
+		7E84811124C6FD4300D4F219 /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E84811024C6FD4300D4F219 /* MenuModel.swift */; };
+		7E90633A24B84B7B00BC5A32 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E90633924B84B7B00BC5A32 /* LoginViewController.swift */; };
+		7EB02FC024C06A31006009FB /* ProgramCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB02FBF24C06A31006009FB /* ProgramCollectionViewCell.swift */; };
+		7EB02FC224C06E5D006009FB /* ProgramModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB02FC124C06E5D006009FB /* ProgramModel.swift */; };
+		7EDAF3D524C59C0D003F15D4 /* ProgramCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDAF3D424C59C0D003F15D4 /* ProgramCollectionView.swift */; };
+		7EFC8B9324C84F24002D77DE /* FullDescriptionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC8B9224C84F24002D77DE /* FullDescriptionTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19D0B929FE3BC28A6578A013 /* Pods_TNT_Rock_Club.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TNT_Rock_Club.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E1412CB24AB276D002DAFDA /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		7E1A5E5C24A9DC2300F641A8 /* TNT Rock Club.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TNT Rock Club.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E1A5E5F24A9DC2300F641A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7E1A5E6124A9DC2300F641A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7E1A5E6624A9DC2300F641A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E1A5E6824A9DC2700F641A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E1A5E6B24A9DC2700F641A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E1A5E6D24A9DC2700F641A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E1A5E7524A9E5D700F641A8 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		7E55296524BE1B9F00F07258 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		7E55296724BE1EB300F07258 /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		7E64D7F324C6FBC100A5AD68 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		7E69120724D1843D00F55BA0 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		7E6DAEF324B722AC00B74CC9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7E84811024C6FD4300D4F219 /* MenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
+		7E90633924B84B7B00BC5A32 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7EB02FBF24C06A31006009FB /* ProgramCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramCollectionViewCell.swift; sourceTree = "<group>"; };
+		7EB02FC124C06E5D006009FB /* ProgramModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramModel.swift; sourceTree = "<group>"; };
+		7EDAF3D424C59C0D003F15D4 /* ProgramCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramCollectionView.swift; sourceTree = "<group>"; };
+		7EFC8B9224C84F24002D77DE /* FullDescriptionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullDescriptionTableViewController.swift; sourceTree = "<group>"; };
+		8C4CF04070BE1A94DD829E4E /* Pods-TNT Rock Club.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TNT Rock Club.debug.xcconfig"; path = "Target Support Files/Pods-TNT Rock Club/Pods-TNT Rock Club.debug.xcconfig"; sourceTree = "<group>"; };
+		A2FF1BD309A9F607E93EF982 /* Pods-TNT Rock Club.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TNT Rock Club.release.xcconfig"; path = "Target Support Files/Pods-TNT Rock Club/Pods-TNT Rock Club.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E1A5E5924A9DC2300F641A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				213FAFAB6F25B8725A746E12 /* Pods_TNT_Rock_Club.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		286470B0F4CC6CD1D62D9E6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19D0B929FE3BC28A6578A013 /* Pods_TNT_Rock_Club.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6DC169266A5E3E3A58EFF069 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C4CF04070BE1A94DD829E4E /* Pods-TNT Rock Club.debug.xcconfig */,
+				A2FF1BD309A9F607E93EF982 /* Pods-TNT Rock Club.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7E1A5E5324A9DC2300F641A8 = {
+			isa = PBXGroup;
+			children = (
+				7E1A5E5E24A9DC2300F641A8 /* TNT Rock Club */,
+				7E1A5E5D24A9DC2300F641A8 /* Products */,
+				6DC169266A5E3E3A58EFF069 /* Pods */,
+				286470B0F4CC6CD1D62D9E6A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7E1A5E5D24A9DC2300F641A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E1A5E5C24A9DC2300F641A8 /* TNT Rock Club.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E1A5E5E24A9DC2300F641A8 /* TNT Rock Club */ = {
+			isa = PBXGroup;
+			children = (
+				7E90633824B8464E00BC5A32 /* Support files */,
+				7E64D7F524C6FBD500A5AD68 /* Models */,
+				7E90633724B8463100BC5A32 /* Controllers */,
+				7E1A5E6824A9DC2700F641A8 /* Assets.xcassets */,
+				7E1A5E6D24A9DC2700F641A8 /* Info.plist */,
+				7E6DAEF324B722AC00B74CC9 /* GoogleService-Info.plist */,
+			);
+			path = "TNT Rock Club";
+			sourceTree = "<group>";
+		};
+		7E64D7F524C6FBD500A5AD68 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7EB02FC124C06E5D006009FB /* ProgramModel.swift */,
+				7E64D7F324C6FBC100A5AD68 /* UserModel.swift */,
+				7E84811024C6FD4300D4F219 /* MenuModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7E90633724B8463100BC5A32 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7E90633924B84B7B00BC5A32 /* LoginViewController.swift */,
+				7E69120724D1843D00F55BA0 /* SignInViewController.swift */,
+				7E1A5E7524A9E5D700F641A8 /* MainViewController.swift */,
+				7E55296724BE1EB300F07258 /* MenuTableViewController.swift */,
+				7E1412CB24AB276D002DAFDA /* MenuTableViewCell.swift */,
+				7EFC8B9224C84F24002D77DE /* FullDescriptionTableViewController.swift */,
+				7EDAF3D424C59C0D003F15D4 /* ProgramCollectionView.swift */,
+				7EB02FBF24C06A31006009FB /* ProgramCollectionViewCell.swift */,
+				7E55296524BE1B9F00F07258 /* MenuVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7E90633824B8464E00BC5A32 /* Support files */ = {
+			isa = PBXGroup;
+			children = (
+				7E1A5E5F24A9DC2300F641A8 /* AppDelegate.swift */,
+				7E1A5E6124A9DC2300F641A8 /* SceneDelegate.swift */,
+				7E1A5E6524A9DC2300F641A8 /* Main.storyboard */,
+				7E1A5E6A24A9DC2700F641A8 /* LaunchScreen.storyboard */,
+			);
+			path = "Support files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E1A5E5B24A9DC2300F641A8 /* TNT Rock Club */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E1A5E7024A9DC2700F641A8 /* Build configuration list for PBXNativeTarget "TNT Rock Club" */;
+			buildPhases = (
+				8018214D838D30D0FDFC4180 /* [CP] Check Pods Manifest.lock */,
+				7E1A5E5824A9DC2300F641A8 /* Sources */,
+				7E1A5E5924A9DC2300F641A8 /* Frameworks */,
+				7E1A5E5A24A9DC2300F641A8 /* Resources */,
+				468E3CD9C290B6125C36A61F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TNT Rock Club";
+			productName = "TNT Rock Club";
+			productReference = 7E1A5E5C24A9DC2300F641A8 /* TNT Rock Club.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E1A5E5424A9DC2300F641A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Vitali Nabarouski";
+				TargetAttributes = {
+					7E1A5E5B24A9DC2300F641A8 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 7E1A5E5724A9DC2300F641A8 /* Build configuration list for PBXProject "TNT Rock Club" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E1A5E5324A9DC2300F641A8;
+			productRefGroup = 7E1A5E5D24A9DC2300F641A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E1A5E5B24A9DC2300F641A8 /* TNT Rock Club */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E1A5E5A24A9DC2300F641A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E1A5E6C24A9DC2700F641A8 /* LaunchScreen.storyboard in Resources */,
+				7E6DAEF424B722AC00B74CC9 /* GoogleService-Info.plist in Resources */,
+				7E1A5E6924A9DC2700F641A8 /* Assets.xcassets in Resources */,
+				7E1A5E6724A9DC2300F641A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		468E3CD9C290B6125C36A61F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TNT Rock Club/Pods-TNT Rock Club-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TNT Rock Club/Pods-TNT Rock Club-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TNT Rock Club/Pods-TNT Rock Club-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8018214D838D30D0FDFC4180 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TNT Rock Club-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E1A5E5824A9DC2300F641A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E69120824D1843D00F55BA0 /* SignInViewController.swift in Sources */,
+				7EB02FC024C06A31006009FB /* ProgramCollectionViewCell.swift in Sources */,
+				7EFC8B9324C84F24002D77DE /* FullDescriptionTableViewController.swift in Sources */,
+				7E90633A24B84B7B00BC5A32 /* LoginViewController.swift in Sources */,
+				7EB02FC224C06E5D006009FB /* ProgramModel.swift in Sources */,
+				7E1A5E7624A9E5D700F641A8 /* MainViewController.swift in Sources */,
+				7E1A5E6024A9DC2300F641A8 /* AppDelegate.swift in Sources */,
+				7EDAF3D524C59C0D003F15D4 /* ProgramCollectionView.swift in Sources */,
+				7E1A5E6224A9DC2300F641A8 /* SceneDelegate.swift in Sources */,
+				7E55296824BE1EB300F07258 /* MenuTableViewController.swift in Sources */,
+				7E55296624BE1B9F00F07258 /* MenuVC.swift in Sources */,
+				7E84811124C6FD4300D4F219 /* MenuModel.swift in Sources */,
+				7E1412CC24AB276D002DAFDA /* MenuTableViewCell.swift in Sources */,
+				7E64D7F424C6FBC100A5AD68 /* UserModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7E1A5E6524A9DC2300F641A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E1A5E6624A9DC2300F641A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E1A5E6A24A9DC2700F641A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E1A5E6B24A9DC2700F641A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E1A5E6E24A9DC2700F641A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7E1A5E6F24A9DC2700F641A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E1A5E7124A9DC2700F641A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C4CF04070BE1A94DD829E4E /* Pods-TNT Rock Club.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8N9N9XNS66;
+				INFOPLIST_FILE = "TNT Rock Club/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "NabarouskiVitali.TNT-Rock-Club";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7E1A5E7224A9DC2700F641A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2FF1BD309A9F607E93EF982 /* Pods-TNT Rock Club.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8N9N9XNS66;
+				INFOPLIST_FILE = "TNT Rock Club/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "NabarouskiVitali.TNT-Rock-Club";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E1A5E5724A9DC2300F641A8 /* Build configuration list for PBXProject "TNT Rock Club" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E1A5E6E24A9DC2700F641A8 /* Debug */,
+				7E1A5E6F24A9DC2700F641A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E1A5E7024A9DC2700F641A8 /* Build configuration list for PBXNativeTarget "TNT Rock Club" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E1A5E7124A9DC2700F641A8 /* Debug */,
+				7E1A5E7224A9DC2700F641A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E1A5E5424A9DC2300F641A8 /* Project object */;
+}
